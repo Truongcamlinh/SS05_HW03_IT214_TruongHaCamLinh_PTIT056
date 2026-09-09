@@ -1,0 +1,10 @@
+01 {"service":"product-service","port":18081}
+02 {"service":"product-service","port":18081}
+03 {"service":"product-service","port":18081}
+04 {"service":"product-service","port":18082}
+05 {"service":"product-service","port":18081}
+06 {"service":"product-service","port":18081}
+07 {"service":"product-service","port":18081}
+08 {"service":"product-service","port":18082}
+09 {"service":"product-service","port":18081}
+10 {"service":"product-service","port":18082}

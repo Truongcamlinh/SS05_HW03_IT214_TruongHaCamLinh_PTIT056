@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#ffffff"/>
+  <rect width="1200" height="88" fill="#245f9d"/>
+  <text x="36" y="38" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#ffffff">SS05 HW03 - RandomLoadBalancer Test</text>
+  <text x="36" y="66" font-family="Arial, sans-serif" font-size="16" fill="#dbeafe">Truong Ha Cam Linh - IT214 - PTIT056</text>
+  <text x="36" y="126" font-family="Arial, sans-serif" font-size="19" fill="#111827">10 requests sent through API Gateway to lb://product-service</text>
+  <rect x="36" y="155" width="1128" height="462" rx="10" fill="#f8fafc" stroke="#d1d5db" stroke-width="2"/>
+  <text x="70" y="198" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#164e84">Observed response sequence</text>
+  <text x="90" y="236" font-family="Arial, sans-serif" font-size="16" fill="#111827">01 port 18081</text>
+  <text x="90" y="266" font-family="Arial, sans-serif" font-size="16" fill="#111827">02 port 18081</text>
+  <text x="90" y="296" font-family="Arial, sans-serif" font-size="16" fill="#111827">03 port 18081</text>
+  <text x="90" y="326" font-family="Arial, sans-serif" font-size="16" fill="#111827">04 port 18082</text>
+  <text x="90" y="356" font-family="Arial, sans-serif" font-size="16" fill="#111827">05 port 18081</text>
+  <text x="90" y="386" font-family="Arial, sans-serif" font-size="16" fill="#111827">06 port 18081</text>
+  <text x="90" y="416" font-family="Arial, sans-serif" font-size="16" fill="#111827">07 port 18081</text>
+  <text x="90" y="446" font-family="Arial, sans-serif" font-size="16" fill="#111827">08 port 18082</text>
+  <text x="90" y="476" font-family="Arial, sans-serif" font-size="16" fill="#111827">09 port 18081</text>
+  <text x="90" y="506" font-family="Arial, sans-serif" font-size="16" fill="#111827">10 port 18082</text>
+  <text x="560" y="236" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#164e84">Summary</text>
+  <rect x="560" y="270" width="420" height="52" rx="6" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="590" y="303" font-family="Arial, sans-serif" font-size="17" fill="#111827">product-service:18081 handled 7 requests</text>
+  <rect x="560" y="342" width="420" height="52" rx="6" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="590" y="375" font-family="Arial, sans-serif" font-size="17" fill="#111827">product-service:18082 handled 3 requests</text>
+  <text x="560" y="444" font-family="Arial, sans-serif" font-size="16" fill="#15803d">Distribution is random, not strict Round Robin.</text>
+  <text x="560" y="478" font-family="Arial, sans-serif" font-size="16" fill="#4b5563">Gateway uses @LoadBalancerClient(name = "product-service").</text>
+  <text x="560" y="512" font-family="Arial, sans-serif" font-size="16" fill="#4b5563">Load balancer bean type: RandomLoadBalancer.</text>
+  <text x="36" y="690" font-family="Arial, sans-serif" font-size="15" fill="#4b5563">Detailed curl output: screenshots/random-loadbalancer-10-requests.txt</text>
+</svg>
